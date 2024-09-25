@@ -1,47 +1,47 @@
-# # if else statement in Python
-# a = int(input("Enter the Nunber : "))
-# if(a > 0):
-#     print("Number is Positive")
-# else:
-#     print("Number is Negative")
+# if else statement in Python
+a = int(input("Enter the Nunber : "))
+if(a > 0):
+    print("Number is Positive")
+else:
+    print("Number is Negative")
 
 
 
 
 
-# # if else statement in Python
-# print("\n\nCommand of Alexa ")
-# budget = int(input("Alexa : Enter Your Budget : "))
-# apple = 120
-# print("Apple Price : ",apple)
-# if(budget > apple):
-#     print("Alexa : 1kg Apple Added in your cart ")
-# else:
-#     print("Alexa : Your Budget is not Sufficient to buy Apple")
+# if else statement in Python
+print("\n\nCommand of Alexa ")
+budget = int(input("Alexa : Enter Your Budget : "))
+apple = 120
+print("Apple Price : ",apple)
+if(budget > apple):
+    print("Alexa : 1kg Apple Added in your cart ")
+else:
+    print("Alexa : Your Budget is not Sufficient to buy Apple")
 
 
  
 
-# # elif statement in Python
-# print("\n\nProgram of Children | Teenager | Adult")
-# age = int(input("Enter Your Age : "))
-# if(age < 13):
-#     print("Children ")
-# elif(age >= 13 and age < 18):
-#     print("Teenager")
-# else:
-#     print("Adult")    
+# elif statement in Python
+print("\n\nProgram of Children | Teenager | Adult")
+age = int(input("Enter Your Age : "))
+if(age < 13):
+    print("Children ")
+elif(age >= 13 and age < 18):
+    print("Teenager")
+else:
+    print("Adult")    
 
 
 
-# # Greeting Programm
-# time = int(input("Enter Railway Time : "))
-# if(time >= 5 and time < 12):
-#     print("Good Morning Sir")
-# elif(time >= 12 and time <= 18):
-#     print("Good Afternoon Sir")
-# else:
-#     print("Good Evening Sir")
+# Greeting Programm
+time = int(input("Enter Railway Time : "))
+if(time >= 5 and time < 12):
+    print("Good Morning Sir")
+elif(time >= 12 and time <= 18):
+    print("Good Afternoon Sir")
+else:
+    print("Good Evening Sir")
 
 
 
